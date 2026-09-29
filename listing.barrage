@@ -1,0 +1,40 @@
+# Claude pieface archive
+
+> A Claude conversation archive on the Pie Face OS thread.
+
+## Purpose
+Explain this repo as a saved conversation shelf about Pie Face, not as the OS itself. Source: fitzyracing1/claude-pieface.
+
+## How it works (plain English)
+1. Keep the chat history in this repo.
+2. Use it to recall Pie Face talk.
+3. Do not treat the archive as the running OS.
+
+## Key ideas
+- Conversation archive
+- Pie Face thread
+- Family of claude-* repos
+
+## The actual code
+```
+# source: fitzyracing1/claude-pieface
+archive = conversation_shelf("pieface")
+read(archive)
+```
+
+## Line-by-line translation
+1. conversation_shelf("pieface") → “this folder holds that thread”
+2. read(archive) → “open the saved talk”
+
+## Decisions the program makes
+- If a reader wants the OS files → send them to the Pie Face project if it exists
+- If a reader wants the chat → stay here
+
+## What a person would notice
+A boxed conversation about a lightweight OS idea.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the archive.
